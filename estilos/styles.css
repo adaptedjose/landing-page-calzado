@@ -1,3 +1,61 @@
-*{
-    
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+body, html{
+    overflow-x: hidden;
+}
+
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Comienza 20px hacia abajo */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Termina en su posición original */
+    }
+}
+
+
+/* Estilo para la sección de imagen de fondo */
+.image-section {
+    animation: backgroundSlideshow 15s infinite;
+    background-image: url('../imagenes/fondo.jpg'); /* Ruta relativa a la imagen local */
+    background-size: cover;
+    background-position: center;
+    height: 135vh; /* Ajusta la altura según tus necesidades */
+}
+
+/* Superposición oscura para el fondo */
+.image-section .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo negro semitransparente */
+    padding: 20px;
+}
+
+/* Contenido de la imagen con márgenes y tamaño máximo */
+.image-section .content {
+    width: 100%;
+    color: white;
+}
+
+/* Tamaño responsivo para el texto */
+.image-section h1 {
+    font-family: 'Anton SC';
+    line-height: 1.2;
+    letter-spacing: 5px;
+    font-size: clamp(2rem, 4vw, 8rem);
+    color: rgb(251, 220, 179);
+}
+
+.image-section p {
+    font-size: 1.4em;
+}
+
+.img_1{
+    border: 2px solid black;
 }
