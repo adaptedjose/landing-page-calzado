@@ -72,7 +72,7 @@ despues se proceda hacer el commit respectivo con los cambios que se hicieron y 
 Se procede a crear el footer de la pagina
 y a darle stilos correspondientes 
 
-Comandos Git Jose:
+#### Comandos Git Jose:
 -git init
 -git clone https://github.com/adaptedjose/landing-page-calzado
 -code .
@@ -85,3 +85,6 @@ Comandos Git Jose:
 -git pull
 -git log --oneline
 -git push origin Jose
+-git checkout
+-git merge Jose Anderson
+-git merge main Jose
