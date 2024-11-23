@@ -6,8 +6,14 @@
     z-index: 1000;
     opacity: 0.7;
     height: 10%;
-
+    background-color: transparent;
 }
+
+nav #toggler {
+    display: none;
+}
+
+
 nav .navbar-burger {
     font-size: 3rem;
     border-radius: .5rem;
@@ -53,7 +59,7 @@ body, html{
     background-image: url('../imagenes/fondo.jpg');
     background-size: cover;
     background-position: center;
-    height: 135vh; 
+    height: 170vh; 
 }
 
 .image-section .overlay {
@@ -143,5 +149,4 @@ body, html{
     gap: 50px;
     align-items: center;
     padding: 50px;
-
 }
