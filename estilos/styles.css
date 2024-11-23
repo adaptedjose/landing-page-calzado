@@ -42,3 +42,39 @@ nav .navbar-burger {
     background-color: transparent !important;
     color: black;
 }
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+
+}
+.payment-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-icons img {
+    width: auto;
+}
+
+.nequi-icon {
+    width: 90px;
+    height: 90px;
+}
+.tamaño{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin-top: 5px;
+}

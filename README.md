@@ -1,6 +1,6 @@
 # landing-page-calzado
 
-###Integrantes del equipo 
+### Integrantes del equipo 
 
 
 #### Jose Gabriel Alvarez Latorre 
@@ -64,3 +64,9 @@ Se empieza a trabajar en el navegador de la pagina de calzado.
 	code . 
 
 Se empieza a modificar el documento para crear el navegador. 
+se hace la estructura y se le da estilo a el navegador 
+luego se procede a agregar los cambios a la zona de staigin 
+despues se proceda hacer el commit respectivo con los cambios que se hicieron y por ultimo se procesa a subir los cambios a el repositorio remoto 
+
+Se procede a crear el footer de la pagina
+y a darle stilos correspondientes 
