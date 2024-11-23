@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/styles.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
-    /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <title> Calzado StepAhead </title>
 </head>
 <body>
+
+    <!-- nav -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <input type="checkbox" id="toggler" class="navbar-burger" />
+        <label for="toggler" class="navbar-burger"></label>
+  
+        <div id="navbarMenu" class="navbar-menu is-active">
+          <div class="navbar-end">
+            <a
+              href="#inicio"
+              class="navbar-item"
+            >
+              <span>Inicio</span>
+            </a>
+  
+            <a
+              href="#zapatos"
+              class="navbar-item"
+            >
+              <span>Zapatos</span>
+            </a>
+
+                <a
+               href="#pie"
+              class="navbar-item"
+                >
+              <span>Contacto</span>
+                </a>
+            </div>
+        </div>
+      </nav>
     <section class="section image-section">
         <div class="overlay is-flex is-align-items-center">
           <div class="content has-text-left p-3">
@@ -114,5 +144,99 @@
               </div>
           </div>
       </section>
+      <footer class="footer has-background-dark has-text-white-ter container.is-fullhd" >
+        <div class="content has-text-centered">
+          <div class="columns">
+            <div class="column contact-info">
+              <h3>Contactanos</h3>
+              <p class="has-text-white">
+                <span class="icon">
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+                +57 301 2787 447
+              </p>
+              <p class="has-text-white">
+                <span class="icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                zapateroasuzapato@gmail.com
+              </p>
+              <p class="has-text-white">
+                <span class="icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </span>
+                Campuslands, Zona Franca, Florida
+              </p>
+            </div>
+  
+            <div class="column social-icons">
+              <h3>Encuentranos en</h3>
+              <a
+                href="https://www.facebook.com"
+                class="icon is-large has-text-white"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/corpoanidescol/"
+                class="icon is-large has-text-white"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.tiktok.com/@corpoanidescol?is_from_webapp=1&sender_device=pc"
+                class="icon is-large has-text-white"
+                target="_blank"
+                aria-label="TikTok"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=573166992930&text&type=phone_number&app_absent=0"
+                class="icon is-large has-text-white "
+                target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+
+    <div class="column payment-methods">
+      <h3 class="has-text-white">Métodos de pago disponibles</h3> <br>
+      <div class="columns">
+        <div class="column payment-icons">
+          <div class="payment-item">
+            <img class="tamaño"
+              src="/imagenes/neki.avif"
+              alt="Nequi"
+              class="nequi-icon"
+            />
+            <h4>3166992930</h4>
+          </div>
+          <div class="payment-item">
+            <img class="tamaño"
+              src="/imagenes/bancolombia-.png"
+              alt="Bancolombia"
+            />
+            <h4>
+              Ahorros: <br />
+              796 000 08595
+            </h4>
+          </div>
+          <div class="payment-item">
+            <img class="tamaño "
+              src="/imagenes/daviplata.png"
+              alt="Daviplata"
+            />
+            <h4><span>356 5992930</span></h4>
+          </div>
+        </div>
+        <div class="columns" id="datos">
+    </div>
+  </div>
+</div>
+</footer>
 </body>
 </html>

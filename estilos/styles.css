@@ -1,3 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.7;
+    height: 10%;
+
+}
+nav .navbar-burger {
+    font-size: 3rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 2px solid black;
+    display: none;
+}
+.navbar-end {
+    margin-left: auto;
+    margin-right: 0px;
+}
+.navbar-item {
+    color: white;
+    font-size: 20px;
+    background-color: transparent !important;
+    border: none;
+    margin-top:1rem;
+    padding: 0%;
+}
+
+.navbar-item:hover {
+    background-color: transparent !important;
+    color: black;
+}
+
+.navbar-item.is-active {
+    background-color: transparent !important;
+    color: black;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 body, html{
     overflow-x: hidden;
@@ -57,13 +99,20 @@ body, html{
     background-size: auto;
     background-position: center;
 }
+
 .social-icons {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
+    gap: 0px;
+
+}
+
     gap: 20px;
 }
+
 
 .payment-icons {
     display: flex;
@@ -87,10 +136,18 @@ body, html{
     height: 90px;
 }
 
+.tamaño{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin-top: 5px;
+
+
 #datos {
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
     padding: 50px;
+
 }
