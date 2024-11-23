@@ -105,14 +105,8 @@ body, html{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     gap: 0px;
-
 }
-
-    gap: 20px;
-}
-
 
 .payment-icons {
     display: flex;
@@ -141,7 +135,7 @@ body, html{
     height: 70px;
     padding: 5px;
     margin-top: 5px;
-
+}
 
 #datos {
     display: flex;
