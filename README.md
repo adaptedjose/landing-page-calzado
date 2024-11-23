@@ -6,4 +6,10 @@ Comandos Git Jose:
 -git status
 -git add .
 -vim README.md
+-git branch Jose
+-git checkout Jose
+-git fetch
+-git pull
+-git log --oneline
+-git push origin Jose
 
