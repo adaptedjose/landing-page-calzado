@@ -1,5 +1,6 @@
 # landing-page-calzado
 
+
 ### Integrantes del equipo 
 
 
@@ -70,3 +71,17 @@ despues se proceda hacer el commit respectivo con los cambios que se hicieron y 
 
 Se procede a crear el footer de la pagina
 y a darle stilos correspondientes 
+
+Comandos Git Jose:
+-git init
+-git clone https://github.com/adaptedjose/landing-page-calzado
+-code .
+-git status
+-git add .
+-vim README.md
+-git branch Jose
+-git checkout Jose
+-git fetch
+-git pull
+-git log --oneline
+-git push origin Jose

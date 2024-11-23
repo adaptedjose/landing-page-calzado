@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./estilos/styles.css">
+</head>
+<body>
+    <h1 class="title has-text-centered has-text-white m-0"> Registro de clientes </h1>
+<section class="section">
+    <div class="container">
+        <form>
+            <div class="field">
+                <label class="label"> Nombres: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Nombres" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label"> Apellidos: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Apellidos" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label"> Correo electrónico: </label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="Dirección de correo electrónico" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label"> Número de teléfono: </label>
+                <div class="control">
+                    <input class="input" type="number" placeholder="Número de teléfono" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label"> Método de pago preferido: </label>
+                <div class="control">
+                    <div class="select">
+                        <select required>
+                            <option value="" disabled selected>Seleccione el método de pago</option>
+                            <option value="efectivo"> Efectivo/Transferencia </option>
+                            <option value="billetera"> Nequi/Daviplata </option>
+                            <option value="debito"> Tarjeta débito </option>
+                            <option value="credito"> Tarjeta crédito </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary is-fullwidth">Registrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>
